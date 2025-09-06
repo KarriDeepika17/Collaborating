@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+    header {
+      background: #2a2a72;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0;
+    }
+    .price {
+      color: #2a2a72;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    button {
+      background: #2a2a72;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    button:hover {
+      background: #4545a5;
+    }
+    footer {
+      background: #e0e0e0;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🛒 Online Shopping Store</header>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Cadbury-Dairy-Milk-Chocolate-Bar.jpg" alt="Dairy Milk">
+      <h3>Dairy Milk Chocolate</h3>
+      <p class="price">₹50</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Tshirt.png" alt="T-Shirt">
+      <h3>Cotton T-Shirt</h3>
+      <p class="price">₹499</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Black_Sneakers.jpg" alt="Shoes">
+      <h3>Black Sneakers</h3>
+      <p class="price">₹1299</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Smartphone.jpg" alt="Mobile">
+      <h3>Smartphone</h3>
+      <p class="price">₹12,999</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>© 2025 Online Shopping Store | All Rights Reserved</footer>
+
+</body>
+</html>
